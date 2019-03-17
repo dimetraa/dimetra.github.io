@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	magin: 0;
+	background: #3F3F3F;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.loginbox {
+	margin-top: 150px;
+	flex-basis: 400px;
+	background: #232323;
+	padding: 20px;
+}
+
+.loginbox h2 {
+	border-bottom: 1px solid #ccc;
+	color: #D8D8D8;
+	text-align: center;
+	padding-bottom: 20px;
+	margin: 0 0 20px;
+}
+
+input, select {
+	width: 95%;
+	padding: 15px 20px;
+	margin: 8px;
+	border: 1px solid #ccc;
+}
+
+input[type=submit] {
+	background-color: #038ADE;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.signup {
+	float: right;
+	text-decoration: none;
+	color: aliceblue;
+	padding-top: 10px;
+}
+
+.logbox {
+	text-decoration: none;
+	color: #232323;
+}
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+a:hover {
+	color: #FFA991;
+}
+
+.loginhere {
+	float: right;
+	padding: 10px 10px 10px 10px;
+}

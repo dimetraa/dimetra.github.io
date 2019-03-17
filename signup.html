@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login Web</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<section class="loginbox">
+		
+		<h2>Sign Up</h2>
+		<form method="post" action="ceklogin.php">
+			<input type="text" placeholder="Username" id="username">
+			<input type="password" placeholder="Password" id="password">
+			<input type="email" placeholder="Email" id="email">
+			<input type="date" id="birthday" value="birthday">
+			<input type="number" placeholder="Phone Number" id="phonenumber">
+			<select id="status" value="status">
+				<option value="single">Single</option>
+				<option value="inrelationship">In Relationship</option>
+				<option value="married">Married</option>
+				<option value="divorce">Divorce</option>
+				<option value="singleparent">Single Parent</option>
+				<option value="livetogether">Live Together w/ Partner</option>
+			</select>
+			<input type="submit" value="Sign Up">
+			</form>
+			<a class="loginhere" href="index.html">or Login here</a>
+		</section>
+	</div>
+</body>
+</html>

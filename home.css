@@ -1,0 +1,129 @@
+body {
+	font-family: "Arial";
+	scroll-behavior: smooth;
+}
+
+#header {
+	height: 80px;
+	background: #3E3E3E;
+	line-height: 100px;
+}
+
+#header a:hover {
+	color: #FFAFB1;
+}
+
+.header-title {
+	text-decoration: none;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 20px 20px 20px;
+}
+
+.header-img{
+	float: right;
+	padding: 10px 20px 20px 30px;
+}
+
+.aside {
+	flex: 20%;
+	width: 200px;
+	min-height: 800px;
+	max-height: 1000px;
+	background: #151515;
+	float: left;
+	margin: 0;
+}
+
+.aside-nav {
+	padding: 20 20 20 20;
+	line-height: 5;
+	display: inline;
+	float: left;
+}
+
+.aside-nav li {
+	display: block;
+}
+
+.aside-nav a:hover {
+	color:#FFA3A4;
+}
+
+.aside-nav a {
+	text-decoration: none;
+	color: #DDDDDD;
+}
+
+
+#content {
+	background: #DDDDDD;
+	min-height: 800px;
+	max-height: 1000px;
+}
+
+@media (max-width: 700px){
+	#content {
+		flex-direction: column;
+		
+	}
+}
+
+.title {
+	float: left;
+	padding: 0px 15px 0 20px;
+}
+
+/*For Subject.html*/
+.main {
+	float: left;
+	padding: 0px 15px 0 20px;
+	flex: 80%;
+	min-height: 530px;
+}
+
+.judul {
+	color: #555555;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 15px;
+}
+
+.table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+.table th {
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #EEEEEE;
+}
+
+.table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.tombol {
+	display: inline-block;
+	max-width: 150px;
+	padding: 15px 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #038ADE;
+	cursor: pointer;
+}
+
+.choose {
+	padding: 10px 15px;
+}
+
+#footer {
+	background: #CCCCCC;
+	color: #555555;
+	padding: 20px;
+	text-align: center;
+}
